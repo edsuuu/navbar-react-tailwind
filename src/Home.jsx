@@ -1,9 +1,11 @@
-import Header from "./Component/Header/Header";
+import Navbar from "../src/Component/Navbar/Navbar";
 
 export default function App() {
   return (
     <>
-    <Header />
+      <header className="bg-custom-color ">
+        <Navbar className="blur-md" />
+      </header>
     </>
   );
 }

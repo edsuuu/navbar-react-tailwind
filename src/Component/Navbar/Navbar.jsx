@@ -12,7 +12,7 @@ const Nav = () => {
   const content = (
     <>
       <div className="lg:hidden block absolute top-16 w-full left-0 right-0 bg-slate-900 transition">
-        <ul className="text-center text-xl">
+        <ul className="text-center text-xl font-inter">
           <Link spy={true} smooth={true} to="Home">
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800">
               Home
@@ -44,16 +44,16 @@ const Nav = () => {
   );
   return (
     <nav>
-      <div className="h-[80px] flex justify-between border-b-2 text-white">
+      <div className="h-[80px] flex justify-between border-b-2 text-white bg-white bg-opacity-10">
         <div className="flex">
           <span className="ml-5 text-3xl font-bold">
-            <img src={Logo} className="w-[80px] h-[80px]" alt="" />
+            <img src={Logo} className="max-w-[80px] h-[80px]" alt="" />
           </span>
         </div>
 
-        <div className="ml-7 lg:flex md:flex font-normal hidden justify-around self-center">
+        <div className="ml-7 lg:flex md:flex font-normal hidden justify-around self-center font-inter uppercase">
           <div>
-            <ul className="flex gap-8 text-[18px]">
+            <ul className="flex gap-8 text-[16px] z-50  flex-wrap">
               <Link spy={true} smooth={true} to="Home">
                 <li className="">Home</li>
               </Link>

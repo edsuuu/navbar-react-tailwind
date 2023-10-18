@@ -20,6 +20,9 @@ export default {
         'jura': ['Jura', 'sans'],
         'poppins': ['Poppins', 'sans'],
       },
+      backgroundImage: {
+        'bg-custom-purple': "url('src/Component/Header/img/background.svg')",
+      }
 
     },
   },
